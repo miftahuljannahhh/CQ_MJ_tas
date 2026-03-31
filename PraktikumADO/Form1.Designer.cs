@@ -38,54 +38,57 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(262, 271);
+            this.btnConnect.Location = new System.Drawing.Point(53, 376);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(75, 23);
+            this.btnConnect.Size = new System.Drawing.Size(102, 28);
             this.btnConnect.TabIndex = 0;
-            this.btnConnect.Text = "button1";
+            this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
             // 
             // btnHitungMhs
             // 
-            this.btnHitungMhs.Location = new System.Drawing.Point(261, 361);
+            this.btnHitungMhs.Location = new System.Drawing.Point(229, 371);
             this.btnHitungMhs.Name = "btnHitungMhs";
-            this.btnHitungMhs.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMhs.Size = new System.Drawing.Size(109, 33);
             this.btnHitungMhs.TabIndex = 1;
-            this.btnHitungMhs.Text = "button2";
+            this.btnHitungMhs.Text = "HitungMhs";
             this.btnHitungMhs.UseVisualStyleBackColor = true;
+            this.btnHitungMhs.Click += new System.EventHandler(this.btnHitungMhs_Click);
             // 
             // btnHitungMK
             // 
-            this.btnHitungMK.Location = new System.Drawing.Point(471, 270);
+            this.btnHitungMK.Location = new System.Drawing.Point(415, 369);
             this.btnHitungMK.Name = "btnHitungMK";
-            this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMK.Size = new System.Drawing.Size(104, 32);
             this.btnHitungMK.TabIndex = 2;
-            this.btnHitungMK.Text = "button3";
+            this.btnHitungMK.Text = "HitungMK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(500, 344);
+            this.btnUpdate.Location = new System.Drawing.Point(581, 369);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(87, 31);
             this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "button4";
+            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(81, 170);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(91, 170);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.label1.Text = "Hasil";
             // 
             // txtHasil
             // 
-            this.txtHasil.Location = new System.Drawing.Point(236, 164);
+            this.txtHasil.Location = new System.Drawing.Point(165, 164);
             this.txtHasil.Name = "txtHasil";
-            this.txtHasil.Size = new System.Drawing.Size(100, 26);
+            this.txtHasil.Size = new System.Drawing.Size(525, 26);
             this.txtHasil.TabIndex = 5;
             // 
             // Form1
