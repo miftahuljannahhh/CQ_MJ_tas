@@ -47,6 +47,7 @@
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // btnHitungMhs
             // 
@@ -66,6 +67,7 @@
             this.btnHitungMK.TabIndex = 2;
             this.btnHitungMK.Text = "HitungMK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
+            this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
             // btnUpdate
             // 
@@ -102,6 +104,7 @@
             this.btnHitungDosen.TabIndex = 6;
             this.btnHitungDosen.Text = "HitungDosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateMK
             // 
@@ -111,6 +114,7 @@
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "UpdateMK";
             this.btnUpdateMK.UseVisualStyleBackColor = true;
+            this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
             // 
             // btnInsertProdi
             // 
@@ -120,6 +124,7 @@
             this.btnInsertProdi.TabIndex = 8;
             this.btnInsertProdi.Text = "InsertProdi";
             this.btnInsertProdi.UseVisualStyleBackColor = true;
+            this.btnInsertProdi.Click += new System.EventHandler(this.btnInsertProdi_Click);
             // 
             // Form1
             // 
