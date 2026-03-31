@@ -19,6 +19,13 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
+                "Data Source=MIFTAHULJANNAH\\MIFTAHJW;Initial Catalog=DBAkademikADO;Integrated Security=True"
+            );
+        }
+
         private void btnUpdate_Click(object sender, EventArgs e)
         {
 
